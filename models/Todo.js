@@ -2,12 +2,12 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 let Todo = new Schema({
-  title: {
-    type: String
-  },
-  body: {
-    type: String
-  }
+ title: {
+   type: String
+ },
+ body: {
+   type: String
+ }
 },{ timestamps: true }
 );
 
